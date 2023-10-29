@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: '50%', // A imagem ocupa 40% da tela
+    height: '50%',
   },
   title: {
     fontSize: 45,
