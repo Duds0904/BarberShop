@@ -31,7 +31,8 @@ export default function SignIn () {
                 />
 
                 <TouchableOpacity style={styles.button}>
-                    <Text style={styles.buttonText}>Login</Text>
+                    <Text style={styles.buttonText}
+                    onPress={ () => navigation.navigate('Home')}>Login</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.buttonRegister}>
